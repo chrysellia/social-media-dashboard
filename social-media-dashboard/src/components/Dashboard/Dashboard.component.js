@@ -80,7 +80,9 @@ const Dashboard = () => {
                             <div className="update-icon">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="8" height="4"><path fill="#DC414C" fill-rule="evenodd" d="M0 0l4 4 4-4z"/></svg>
                             </div>
-                            <div className="followers-update text-red">144 Today</div>
+                            <div className="followers-update">
+                                <h1 style={{color:'hsl(356, 69%, 56%)'}}>144 Today</h1>
+                            </div>
                         </div>
                     </div>
                 </div>

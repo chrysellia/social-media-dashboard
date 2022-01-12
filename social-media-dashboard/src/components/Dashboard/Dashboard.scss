@@ -5,13 +5,17 @@
     .card-wrapper {
         display: flex;
         padding: 2rem 8rem;
-        width: 100%;
     
             .dashboard-card {
                 width: 25%;
                 background-color: hsl(228, 28%, 20%);
                 border-radius: 0.5rem;
                 margin-right: 1.5rem;
+                cursor: pointer;
+
+                &.hover {
+                    background-color: hsl(228, 34%, 66%);
+                }
 
                 .card-content {
                     text-align: center;

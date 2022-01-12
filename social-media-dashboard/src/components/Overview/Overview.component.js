@@ -41,7 +41,9 @@ const Overview = () => {
                                     <div className="view-icon">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="8" height="4"><path fill="#DC414C" fill-rule="evenodd" d="M0 0l4 4 4-4z"/></svg>
                                     </div>
-                                    <div className="view-percent text-red-100">2%</div>
+                                    <div className="view-percent">
+                                        <h1 style={{color:'hsl(356, 69%, 56%)'}}>2%</h1>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -141,7 +143,9 @@ const Overview = () => {
                                     <div className="view-icon">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="8" height="4"><path fill="#DC414C" fill-rule="evenodd" d="M0 0l4 4 4-4z"/></svg>
                                     </div>
-                                    <div className="view-percent text-red">19%</div>
+                                    <div className="view-percent">
+                                        <h1 style={{color:'hsl(356, 69%, 56%)'}}>19%</h1>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -161,7 +165,9 @@ const Overview = () => {
                                     <div className="view-icon">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="8" height="4"><path fill="#DC414C" fill-rule="evenodd" d="M0 0l4 4 4-4z"/></svg>
                                     </div>
-                                    <div className="view-percent text-red">12%</div>
+                                    <div className="view-percent text-red">
+                                        <h1  style={{color:'hsl(356, 69%, 56%)'}}>12%</h1>
+                                    </div>
                                 </div>
                             </div>
                         </div>

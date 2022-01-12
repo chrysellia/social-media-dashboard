@@ -15,10 +15,16 @@
 
             .card-wrapper {
                 flex-wrap: wrap;
-                width: 25%;
+                width: 20%;
                 background-color: hsl(228, 28%, 20%);
                 border-radius: 0.5rem;
                 margin-right: 1.5rem;
+                margin-bottom: 1.5rem;
+                cursor: pointer;
+
+                &.hover {
+                    background-color: hsl(228, 34%, 66%);
+                }
 
                 .first-section {
                     display: flex;
