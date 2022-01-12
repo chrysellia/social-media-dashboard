@@ -1,0 +1,63 @@
+.overview-component {
+    .overview-wrapper {
+        padding: 2rem 8rem;
+
+        .overview-title {
+            font-weight: 700;
+            font-size: 20px;
+            padding-bottom: 2rem;
+        }
+
+        .overview-card {
+            display: flex;
+
+            .card-wrapper {
+                flex-wrap: wrap;
+                width: 25%;
+                background-color: hsl(228, 28%, 20%);
+                border-radius: 0.5rem;
+                margin-right: 1.5rem;
+
+                .first-section {
+                    display: flex;
+                    padding: 1rem 2rem;
+
+                    .section-title {
+                        flex: auto;
+                        color: hsl(228, 34%, 66%)
+                    }
+                }
+
+                .second-section {
+                    padding: 1rem 2rem;
+
+                    .view-count {
+                        display: flex;
+
+                        .view-number {
+                            color: white;
+                            font-weight: 700;
+                            font-size: 20px;
+                            flex: auto;
+                        }
+    
+                        .view-update {
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+    
+                            .view-icon {
+                                margin-right: 0.3rem;
+                            }
+    
+                            .view-percent {
+                                color: hsl(163, 72%, 41%);
+                                font-size: 14px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
