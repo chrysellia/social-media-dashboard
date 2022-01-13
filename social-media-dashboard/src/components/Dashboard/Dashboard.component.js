@@ -65,7 +65,7 @@ const Dashboard = () => {
                     </div>
                 </div>
 
-                <div className="dashboard-card">
+                <div className="last-dashboard">
                     <div className="card-content">
                         <div className="user-profile">
                             <div className="card-icon">

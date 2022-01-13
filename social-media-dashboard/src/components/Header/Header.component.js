@@ -12,7 +12,9 @@ const Header = () => {
                     </div>
                     <div className="right-side">
                         <div classNamme="toggle-color">
-                            <div className="toggle-text">Dark mode</div>
+                            <div className="toggle-text">
+                                <h1 style={{color:'hsl(228, 34%, 66%)'}}>Dark mode</h1>
+                            </div>
                             <div className="toggle-icon"></div>
                         </div>
                     </div>
