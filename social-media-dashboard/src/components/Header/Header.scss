@@ -31,12 +31,16 @@
     
             .right-side {
                 .toggle-color {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
                     .toggle-text {
                         font-size: 14px;
                         color: hsl(228, 34%, 66%);
                         font-weight: 400;
-                    }
-                    
+                    }   
+
                     .toggle-icon {
                         
                     }

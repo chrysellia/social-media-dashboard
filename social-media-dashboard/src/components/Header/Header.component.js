@@ -1,5 +1,6 @@
 import React from 'react'
 import './Header.scss'
+import ToggleButton from './partials/ToggleButton/ToggleButton.component'
 
 const Header = () => {
     return (
@@ -15,7 +16,7 @@ const Header = () => {
                             <div className="toggle-text">
                                 <h1 style={{color:'hsl(228, 34%, 66%)'}}>Dark mode</h1>
                             </div>
-                            <div className="toggle-icon"></div>
+                            <div className="toggle-icon"><ToggleButton/></div>
                         </div>
                     </div>
                 </div>
